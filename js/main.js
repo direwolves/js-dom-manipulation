@@ -8,10 +8,16 @@ var evaUnit = 01;
 var readyLaunch = true;
 
 // create a variable with an array stored inside
-var pilots = ['Asuka', 'Shinji', 'Rei']
+var pilots = ['Asuka', 'Shinji', 'Rei'];
 
 // create a for loop that loops over your array
 // logging each item to the console
 for(var i = 0; i < pilots.length; i++){
 	console.log(pilots[i]);
+}
+
+// practice
+var evaUnits = [01, 02, 03];
+for(var i = 0; i < evaUnits.length; i++){
+	console.log(evaUnits[i]);
 }
