@@ -75,6 +75,16 @@ document.getElementById('title').addEventListener('click', function(){
 	alert('You\'re clicking on your H1!!!!');
 });
 
+// alerting the inside text of the div
+document.getElementById('foo-bar').addEventListener('click', function(){
+	var myText = document.getElementById('foo-bar').innerText;
+	alert(myText);
+});
+
+
+
+
+
 
 
 
