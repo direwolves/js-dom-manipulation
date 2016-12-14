@@ -31,7 +31,7 @@ var spells = ['firebolt', 'icy grip', 'darkness', 'radiance of the dawn']
 for(var i = 0; i < spells.length; i++){
 	console.log(spells[i]);
 }
-// store our JS selector in a variable
+/*// store our JS selector in a variable
 var heading = document.getElementById('title');
 
 // get the innerText and log it to the console
@@ -58,15 +58,22 @@ allParas[2].innerText = 'Updated this para via JS';
 // select only the item with the index of 2, from our array
 // of elements that have a class name of 'heading'
 var secondHeading = document.getElementsByClassName('heading')[2];
-console.log(secondHeading);
+console.log(secondHeading);*/
 
 // EXERCISE
-for(var i = 0; i < allParas.length; i++){
+/*for(var i = 0; i < allParas.length; i++){
 	console.log(allParas[i]);
 }
-
+*/
 //
-document.getElementById('cool-button').addEventListener('click')
+document.getElementById('cool-button').addEventListener('click', function(){
+	alert('I have been clicked');
+});
+
+// listen for the click on an <h1> event
+document.getElementById('title').addEventListener('click', function(){
+	alert('You\'re clicking on your H1!!!!');
+});
 
 
 
